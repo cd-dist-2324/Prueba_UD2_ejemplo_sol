@@ -19,8 +19,27 @@ public class FiguraGeometrica {
         this.nombre = nombre;
     }
 
+/*Nombre alumno/a apellidos */
+
+    public int getNumLados() {
+        return this.numLados;
+    }
+
+    public void setNumLados(int numLados) {
+        this.numLados = numLados;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
 
+    public FiguraGeometrica() {
+    }
    
 
 
